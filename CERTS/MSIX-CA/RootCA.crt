@@ -1,0 +1,86 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            3c:39:14:be:0f:26:ad:6a:59:29:26:e0:46:5d:2e:25:fa:cf:15:59
+        Signature Algorithm: ecdsa-with-SHA512
+        Issuer: C=TW, ST=\xE5\x8F\xB0\xE7\x81\xA3\xE7\x9C\x81, O=LCINAT\xE7\xA7\x81\xE4\xBA\xBA\xE6\x86\x91\xE8\xAD\x89\xE7\xAE\xA1\xE7\x90\x86\xE4\xB8\xAD\xE5\xBF\x83, OU=ECC\xE6\x86\x91\xE8\xAD\x89\xE4\xB8\xAD\xE5\xBF\x83, CN=LCINAT ECC CA\xE6\xA0\xB9\xE6\x86\x91\xE8\xAD\x89/businessCategory=Private Organization/serialNumber=PriOrg-1120200000T/street=\xE8\x98\x86\xE6\xB4\xB2\xE5\x8D\x80\xE6\xB0\xB8\xE6\xA8\x82\xE8\xA1\x9755\xE8\x99\x9F/postalCode=247/jurisdictionL=\xE6\x96\xB0\xE5\x8C\x97\xE5\xB8\x82/jurisdictionST=\xE5\x8F\xB0\xE7\x81\xA3\xE7\x9C\x81/jurisdictionC=TW
+        Validity
+            Not Before: Feb  6 06:25:37 2023 GMT
+            Not After : Mar 10 06:25:37 2024 GMT
+        Subject: C=TW, ST=\xE5\x8F\xB0\xE7\x81\xA3\xE7\x9C\x81, L=\xE6\x96\xB0\xE5\x8C\x97\xE5\xB8\x82, O=LCINAT\xE7\xA7\x81\xE4\xBA\xBA\xE6\x86\x91\xE8\xAD\x89\xE7\xAE\xA1\xE7\x90\x86\xE4\xB8\xAD\xE5\xBF\x83, OU=ECC\xE6\x86\x91\xE8\xAD\x89\xE4\xB8\xAD\xE5\xBF\x83, CN=LCINAT ECC MSIX CA\xE6\x86\x91\xE8\xAD\x89/businessCategory=Private Organization/serialNumber=PriOrg-1120200000T/street=\xE8\x98\x86\xE6\xB4\xB2\xE5\x8D\x80\xE6\xB0\xB8\xE6\xA8\x82\xE8\xA1\x9755\xE8\x99\x9F/postalCode=247/jurisdictionL=\xE6\x96\xB0\xE5\x8C\x97\xE5\xB8\x82/jurisdictionST=\xE5\x8F\xB0\xE7\x81\xA3\xE7\x9C\x81/jurisdictionC=TW
+        Subject Public Key Info:
+            Public Key Algorithm: id-ecPublicKey
+                Public-Key: (521 bit)
+                pub:
+                    04:00:df:e9:87:92:4e:c8:9c:b5:8b:af:72:c9:2d:
+                    ad:e4:34:3b:10:40:c8:96:8e:0d:12:cd:9f:91:25:
+                    f7:10:2e:58:5c:f4:d3:80:64:b7:f0:32:e7:0a:e0:
+                    f3:58:a8:f3:0c:7e:9b:67:2d:73:0d:e2:7d:f4:22:
+                    49:c5:fd:bc:f6:70:5c:01:56:28:18:a9:34:4c:86:
+                    fd:67:a7:1e:38:2a:ba:5e:5a:54:34:a1:d9:a9:31:
+                    75:9c:e2:b5:35:50:9a:99:cc:ff:9d:97:e5:c0:63:
+                    e9:6f:35:5d:09:07:5e:81:62:6e:03:a2:56:47:a9:
+                    43:d9:13:8d:6a:ae:96:2c:d6:2a:e1:c4:a4
+                ASN1 OID: secp521r1
+                NIST CURVE: P-521
+        X509v3 extensions:
+            X509v3 Subject Key Identifier: 
+                AF:0C:3A:E7:17:87:6C:3B:21:21:00:72:F8:A1:6A:59:21:D1:09:73
+            X509v3 Authority Key Identifier: 
+                08:74:35:58:94:3D:F8:0C:7C:49:2D:EC:04:A3:9E:7B:2F:E5:B8:1B
+            X509v3 Issuer Alternative Name: 
+                <EMPTY>
+
+            X509v3 Basic Constraints: critical
+                CA:TRUE
+            X509v3 CRL Distribution Points: 
+                Full Name:
+                  URI:https://ecca.welcinat.com/CRL/ROOTCA/ca.crl
+            Authority Information Access: 
+                CA Issuers - URI:https://ecca.welcinat.com/CERTS/RootCA.crt
+            X509v3 Certificate Policies: 
+                Policy: 2.23.140.1.1
+                Policy: trustList
+                  CPS: https://ecca.welcinat.com/
+    Signature Algorithm: ecdsa-with-SHA512
+    Signature Value:
+        30:81:88:02:42:00:c4:45:a5:cf:62:a0:8b:42:06:9a:52:de:
+        c8:c2:e7:d5:34:95:0f:8d:de:40:73:5d:42:a8:94:f6:db:f0:
+        bb:9c:d3:af:a7:50:09:a3:e5:ba:fd:92:93:e5:05:62:13:7a:
+        8c:dd:77:bb:86:3a:f0:08:06:3f:a6:0f:6e:29:70:ff:6e:02:
+        42:01:09:02:2c:cb:5d:3f:63:98:9d:5f:cb:3b:7d:8d:4f:21:
+        fc:ad:81:42:74:cd:10:f3:ea:ea:b8:82:ef:2a:12:0e:ef:ee:
+        82:23:7d:00:c7:87:b8:63:6d:8b:eb:a9:cc:7e:78:4e:76:41:
+        cd:19:70:19:d4:54:92:4d:09:21:19:37:fc
+-----BEGIN CERTIFICATE-----
+MIIFVDCCBLWgAwIBAgIUPDkUvg8mrWpZKSbgRl0uJfrPFVkwCgYIKoZIzj0EAwQw
+ggE+MQswCQYDVQQGEwJUVzESMBAGA1UECAwJ5Y+w54Gj55yBMScwJQYDVQQKDB5M
+Q0lOQVTnp4HkurrmhpHorYnnrqHnkIbkuK3lv4MxGDAWBgNVBAsMD0VDQ+aGkeit
+ieS4reW/gzEfMB0GA1UEAwwWTENJTkFUIEVDQyBDQeagueaGkeitiTEdMBsGA1UE
+DwwUUHJpdmF0ZSBPcmdhbml6YXRpb24xGzAZBgNVBAUTElByaU9yZy0xMTIwMjAw
+MDAwVDEgMB4GA1UECQwX6JiG5rSy5Y2A5rC45qiC6KGXNTXomZ8xDDAKBgNVBBEM
+AzI0NzEaMBgGCysGAQQBgjc8AgEBDAnmlrDljJfluIIxGjAYBgsrBgEEAYI3PAIB
+AgwJ5Y+w54Gj55yBMRMwEQYLKwYBBAGCNzwCAQMTAlRXMB4XDTIzMDIwNjA2MjUz
+N1oXDTI0MDMxMDA2MjUzN1owggFUMQswCQYDVQQGEwJUVzESMBAGA1UECAwJ5Y+w
+54Gj55yBMRIwEAYDVQQHDAnmlrDljJfluIIxJzAlBgNVBAoMHkxDSU5BVOengeS6
+uuaGkeitieeuoeeQhuS4reW/gzEYMBYGA1UECwwPRUND5oaR6K2J5Lit5b+DMSEw
+HwYDVQQDDBhMQ0lOQVQgRUNDIE1TSVggQ0HmhpHorYkxHTAbBgNVBA8MFFByaXZh
+dGUgT3JnYW5pemF0aW9uMRswGQYDVQQFExJQcmlPcmctMTEyMDIwMDAwMFQxIDAe
+BgNVBAkMF+iYhua0suWNgOawuOaoguihlzU16JmfMQwwCgYDVQQRDAMyNDcxGjAY
+BgsrBgEEAYI3PAIBAQwJ5paw5YyX5biCMRowGAYLKwYBBAGCNzwCAQIMCeWPsOeB
+o+ecgTETMBEGCysGAQQBgjc8AgEDEwJUVzCBmzAQBgcqhkjOPQIBBgUrgQQAIwOB
+hgAEAN/ph5JOyJy1i69yyS2t5DQ7EEDIlo4NEs2fkSX3EC5YXPTTgGS38DLnCuDz
+WKjzDH6bZy1zDeJ99CJJxf289nBcAVYoGKk0TIb9Z6ceOCq6XlpUNKHZqTF1nOK1
+NVCamcz/nZflwGPpbzVdCQdegWJuA6JWR6lD2RONaq6WLNYq4cSko4IBMjCCAS4w
+HQYDVR0OBBYEFK8MOucXh2w7ISEAcvihalkh0QlzMB8GA1UdIwQYMBaAFAh0NViU
+PfgMfEkt7ASjnnsv5bgbMAkGA1UdEgQCMAAwDwYDVR0TAQH/BAUwAwEB/zA8BgNV
+HR8ENTAzMDGgL6AthitodHRwczovL2VjY2Eud2VsY2luYXQuY29tL0NSTC9ST09U
+Q0EvY2EuY3JsMEYGCCsGAQUFBwEBBDowODA2BggrBgEFBQcwAoYqaHR0cHM6Ly9l
+Y2NhLndlbGNpbmF0LmNvbS9DRVJUUy9Sb290Q0EuY3J0MEoGA1UdIARDMEEwBwYF
+Z4EMAQEwNgYKYIZIAYb4QgGHBDAoMCYGCCsGAQUFBwIBFhpodHRwczovL2VjY2Eu
+d2VsY2luYXQuY29tLzAKBggqhkjOPQQDBAOBjAAwgYgCQgDERaXPYqCLQgaaUt7I
+wufVNJUPjd5Ac11CqJT22/C7nNOvp1AJo+W6/ZKT5QViE3qM3Xe7hjrwCAY/pg9u
+KXD/bgJCAQkCLMtdP2OYnV/LO32NTyH8rYFCdM0Q8+rquILvKhIO7+6CI30Ax4e4
+Y22L66nMfnhOdkHNGXAZ1FSSTQkhGTf8
+-----END CERTIFICATE-----
